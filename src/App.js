@@ -10,7 +10,7 @@ const App = () => {
     WebViewer(
       {
         path: '/webviewer/lib',
-        initialDoc: '/files/pdftron_about.pdf',
+        initialDoc: '/files/jesse.pdf',
       },
       viewer.current,
     ).then((instance) => {
@@ -36,7 +36,7 @@ const App = () => {
 
   return (
     <div className="App">
-      <div className="header">React sample</div>
+      <div className="header">SignHaki</div>
       <div className="webviewer" ref={viewer}></div>
     </div>
   );
